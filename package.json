@@ -1,10 +1,19 @@
 {
+  "name": "consulting-page",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
   "dependencies": {
-    "lucide-react": "^1.16.0"
+    "react": "latest",
+    "react-dom": "latest"
   },
   "devDependencies": {
-    "autoprefixer": "^10.5.0",
-    "postcss": "^8.5.15",
-    "tailwindcss": "^3.4.19"
+    "@vitejs/plugin-react": "latest",
+    "vite": "latest"
   }
 }
